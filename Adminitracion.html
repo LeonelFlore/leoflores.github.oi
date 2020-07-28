@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Administrador de donaciones  </title>
+<link rel="stylesheet" type="text/css" href="Estilos\Barra.css">
+<link rel="stylesheet" type="text/css" href="Estilos\admin.css">
+<link rel="stylesheet" type="text/css" href="Estilos\footer.css">
+
+<script type="text/javascript" src="js/admin.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <header >
+    <ul>
+<li><a href="index.html">Inicio</a></li>
+  <li><a href="Adminitracion.html">Administracion de pedidos </a></li>
+  <li><a href="Consultas.html">Consultar donaciones </a></li>
+  <li><a href="Transacion.html">hacer donacion  </a></li>
+  <li><a href="quienes.html">Quienes somos</a></li>
+  <li style="float:right"><a href="registro.html">Registrarse</a></li>
+  <li style="float:right"><a href="login.html">Iniciar sección</a></li>
+</ul>
+</header>
+<section> 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+     <div class="container">
+      <div>
+      <h3>Administrador solicitudes de pedidos </h3>
+     
+      </div>
+
+      
+      <input class="form-control col-md-3 light-table-filter" data-table="order-table" type="text" placeholder="Buscar donacion">
+      <div>
+ <table class="table table-bordered order-table ">
+        <thead>
+          <tr>
+            <th>Donante</th>
+            <th>Donacion </th>
+            <th>Ciudad </th>
+            <th colspan="2" scope="rowgroup">Estado de la donacion </th>
+          </tr>
+        </thead>
+        <tr>
+          <td>Leonel Flores </td>
+          <td>efectivo</td>
+          <td>Montecristi</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >Aceptar donacion </button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">Rechazar</button></td>
+        </tr>
+        <tr>
+          <td>Leonardo Anchundia </td>
+          <td>Viveres</td>
+          <td>Manta</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >Aceptar donacion</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">Rechazar</button></td>
+        </tr>
+        <tr>
+          <td>Leonardo Flores</td>
+          <td>Efectivo</td>
+          <td>Portoviejo</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >Aceptar donacion</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">Rechazar</button></td>
+        </tr>
+        <tr>
+          <td>Mirian Delgado</td>
+          <td>vivieres</td>
+          <td>Quito</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >Aceptar donacion</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">Rechazar</button></td>     
+        </tr>
+        <tr>
+          <td>Yelimar Lopez</td>
+          <td>efectivo</td>
+          <td>Venezuela</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >Aceptar donacion</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">Rechazar</button></td>       
+        </tr>
+        <tr>
+          <td> Thiago Flores</td>
+          <td> Viveres</td>
+          <td>Montecristi</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >Aceptar donacion</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">Rechazar</button></td>
+        </tr>
+        
+        
+ </table>
+     </div>   
+     </div> 
+     </div>
+     </div>
+     </div> 
+</section> 
+<footer>
+  
+</footer>  
+</body>
+</html>
+
+         
